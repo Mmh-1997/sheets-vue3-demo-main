@@ -1,0 +1,52 @@
+{
+  "name": "using-univer-with-vue3",
+  "description": "The example project of using Univer with Vue 3",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "engines": {
+    "npm": ">=7.0.0",
+    "pnpm": ">=7.0.0"
+  },
+  "dependencies": {
+    "@univerjs/core": "^0.4.1",
+    "@univerjs/data-validation": "^0.4.1",
+    "@univerjs/design": "^0.4.1",
+    "@univerjs/docs": "^0.4.1",
+    "@univerjs/docs-ui": "^0.4.1",
+    "@univerjs/engine-formula": "^0.4.1",
+    "@univerjs/engine-render": "^0.4.1",
+    "@univerjs/facade": "^0.4.1",
+    "@univerjs/find-replace": "^0.4.1",
+    "@univerjs/network": "^0.4.1",
+    "@univerjs/rpc": "^0.4.1",
+    "@univerjs/sheets": "^0.4.1",
+    "@univerjs/sheets-conditional-formatting": "^0.4.1",
+    "@univerjs/sheets-conditional-formatting-ui": "^0.4.1",
+    "@univerjs/sheets-data-validation": "^0.4.1",
+    "@univerjs/sheets-data-validation-ui": "^0.4.1",
+    "@univerjs/sheets-filter": "^0.4.1",
+    "@univerjs/sheets-filter-ui": "^0.4.1",
+    "@univerjs/sheets-find-replace": "^0.4.1",
+    "@univerjs/sheets-formula": "^0.4.1",
+    "@univerjs/sheets-formula-ui": "^0.4.1",
+    "@univerjs/sheets-numfmt": "^0.4.1",
+    "@univerjs/sheets-sort": "^0.4.1",
+    "@univerjs/sheets-sort-ui": "^0.4.1",
+    "@univerjs/sheets-ui": "^0.4.1",
+    "@univerjs/ui": "^0.4.1",
+    "vue": "^3.5.8",
+	"vue-router": "^4.1.2"
+  },
+  "devDependencies": {
+    "@univerjs/vite-plugin": "^0.5.0",
+    "@vitejs/plugin-vue": "^5.1.4",
+    "vite": "^5.4.8"
+  }
+}
